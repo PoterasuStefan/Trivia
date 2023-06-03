@@ -10,27 +10,11 @@ using System.Windows.Forms;
 
 namespace Trivia
 {
-    public partial class Form1 : Form
+    public partial class Form3 : Form
     {
-        public Form1()
+        public Form3()
         {
             InitializeComponent();
         }
-
-        private void Start_Button_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Form2 form2 = new Form2();
-            form2.Show();
-
-        }
-
-        
-
-
-
-
-
-
     }
 }
